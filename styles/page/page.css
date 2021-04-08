@@ -1,5 +1,5 @@
 .page{
-  max-width: 1440px;
+  max-width: 1366px;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -9,3 +9,9 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+/* @media screen and (min-width: 800px) and (max-width: 940px) {
+  .page{
+    max-width: 940px;
+  }
+} */

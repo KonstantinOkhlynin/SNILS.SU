@@ -2,10 +2,31 @@
 
 .contacts__info {
   font-size: 17px;
-  font-family: 'PlumbCondensed' , Arial, sans-serif;
+  font-family: 'PlumbCondensed', Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.145;
   color: #fff;
+  margin: 0;
+}
+
+.grid-area-one{
+  grid-area: one;
+}
+.grid-area-two{
+  grid-area: two;
+}
+.grid-area-tree{
+  grid-area: tree;
+}
+.grid-area-four{
+  grid-area: four;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 539px) {
+  .contacts__info{
+    font-size: 14px;
+  }
 }
 

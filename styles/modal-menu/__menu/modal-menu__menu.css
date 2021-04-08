@@ -1,0 +1,9 @@
+.modal-menu__menu {
+  position: relative;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.modal-menu__menu:hover .modal-menu__nav {
+  display: flex;
+}

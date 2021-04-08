@@ -1,0 +1,27 @@
+@import url('./_mod/menu-nav__item_mod.css');
+.menu-nav__item {
+  font-size: 18px;
+  font-family: 'PlumbCondensed', Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: 1.081;
+  color: rgb(56, 56, 56);
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+
+.menu-nav__item:hover {
+  border-bottom: 2px solid #f5135c;
+}
+
+.menu-nav__item:hover .modal {
+  display: flex;
+}
+
+@media screen and (max-width: 610px) {
+  .menu-nav__item:hover .modal {
+    display: none;
+  }
+}

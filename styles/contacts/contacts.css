@@ -4,9 +4,57 @@
     max-width: auto;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
-    gap: 65px 0px;
+    grid-template-columns: 275px 140px 150px 212px;
+    /* grid-template-columns: 275px 275px 275px 275px; */
+    grid-template-rows: 17px;
+    gap: 65px 65px;
     grid-template-areas:
-      ". . . .";
+      "one two tree four";
+}
+
+@media screen and (min-width: 940px) and (max-width: 1023px) {
+  .contacts{
+    gap: 65px 45px;
+  }
+}
+
+@media screen and (min-width: 870px) and (max-width: 939px) {
+  .contacts{
+    gap: 65px 25px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 869px) {
+  .contacts{
+    gap: 10px 10px;
+  grid-template-columns: 275px 212px;
+  grid-template-rows: 17px 17px;
+  grid-template-areas:
+    "one four"
+    "two tree";
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 539px) {
+  .contacts{
+    gap: 10px 10px;
+    grid-template-columns: 227px 175px;
+    grid-template-rows: 14px 14px;
+    grid-template-areas:
+    "one four"
+    "two tree";
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .contacts{
+    gap: 10px 10px;
+    grid-template-columns: 227px;
+    grid-template-rows: 14px 14px 14px 14px;
+    grid-template-areas:
+    "one"
+    "two"
+    "tree"
+    "four";
+  }
 }

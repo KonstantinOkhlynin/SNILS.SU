@@ -1,11 +1,13 @@
 .header__logo-container {
-  background-image: linear-gradient(#7291b3 60% ,#3e5076);
   background-image: -moz-linear-gradient( 90deg, #3e5076, #7291b3 60%);
   background-image: -webkit-linear-gradient( 90deg,#3e5076, #7291b3 60%);
   background-image: -ms-linear-gradient( 90deg,#3e5076, #7291b3 60%);
   max-width: 100%;
   height: auto;
-  box-shadow: inset 0 -5px -5px -5px #000;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+  padding-bottom: 22px;
 }
 
 

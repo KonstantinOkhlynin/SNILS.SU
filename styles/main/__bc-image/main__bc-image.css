@@ -1,0 +1,8 @@
+.main__bc-image {
+  background-image: url('../../../image/first_screen.jpg');
+  width: 100%;
+  height: 522px;
+  background-repeat: no-repeat;
+  margin-top: -47px;
+  background-size: cover;
+}

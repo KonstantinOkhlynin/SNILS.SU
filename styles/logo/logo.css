@@ -1,0 +1,11 @@
+@import url('./__icon/logo__icon.css');
+@import url('./__name/logo__name.css');
+
+.logo {
+  display: grid;
+  grid-template-columns: 45px 183px;
+  grid-template-rows: auto;
+  gap: 0px 15px;
+  grid-template-areas:
+    ". .";
+}

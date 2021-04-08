@@ -1,4 +1,10 @@
 @import url('./normalize.css');
+@import url('../fonts/fonts.css');
 @import url('./page/page.css');
 @import url('./header/header.css');
 @import url('./contacts/contacts.css');
+@import url('./logo/logo.css');
+@import url('./main/main.css');
+@import url('./menu-nav/menu-nav.css');
+@import url('./modal/modal.css');
+@import url('./modal-menu/modal-menu.css');
