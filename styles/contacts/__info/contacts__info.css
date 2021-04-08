@@ -1,0 +1,11 @@
+@import url('./_mod-red/contacts__info_mod-red.css');
+
+.contacts__info {
+  font-size: 17px;
+  font-family: 'PlumbCondensed' , Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.145;
+  color: #fff;
+}
+
