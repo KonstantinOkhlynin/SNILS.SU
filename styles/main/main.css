@@ -1,4 +1,6 @@
 @import url('./__bc-image/main__bc-image.css');
+@import url('./__title/main__title.css');
+@import url('./__title-container/main__title-container.css');
 .main {
   width: 100%;
 }

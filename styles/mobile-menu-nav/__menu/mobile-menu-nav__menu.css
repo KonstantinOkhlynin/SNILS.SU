@@ -1,0 +1,7 @@
+.mobile-menu-nav__menu {
+  font-size: 18px;
+}
+
+.mobile-menu-nav__menu:hover .mobile-menu-nav__nav {
+  display: flex;
+}

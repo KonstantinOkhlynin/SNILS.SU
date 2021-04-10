@@ -1,27 +1,46 @@
-@import url('./_mod/menu-nav__item_mod.css');
+@import url('./_border/menu-nav__item_border.css');
 .menu-nav__item {
-  font-size: 18px;
-  font-family: 'PlumbCondensed', Arial, sans-serif;
-  text-transform: uppercase;
-  line-height: 1.081;
-  color: rgb(56, 56, 56);
-  font-style: normal;
-  font-weight: 500;
-  padding-top: 6px;
-  cursor: pointer;
+    padding-top: 6px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
-
-.menu-nav__item:hover {
-  border-bottom: 2px solid #f5135c;
+.menu-nav__item::before {
+content: ' ';
+    background-image: url('../../../image/Слой\ 1\ копия\ 3.png');
+    display: block;
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
-.menu-nav__item:hover .modal {
+.menu-nav__item:last-child::after {
+  content: ' ';
+      background-image: url('../../../image/Слой\ 1\ копия\ 3.png');
+      display: block;
+      width: 3px;
+      height: 30px;
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+
+
+.menu-nav__item_mod:hover .modal {
   display: flex;
 }
 
-@media screen and (max-width: 610px) {
-  .menu-nav__item:hover .modal {
-    display: none;
+.menu-nav__item:hover .menu-nav__item_border {
+  display: block;
+}
+
+@media screen and (max-width: 729px) {
+  .menu-nav__item {
+    font-size: 14px;
   }
 }

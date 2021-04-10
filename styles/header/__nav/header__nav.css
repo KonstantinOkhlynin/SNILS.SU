@@ -8,5 +8,18 @@
   display: flex;
   justify-content: center;
   box-sizing:border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
 }
+
+.header__nav::before {
+  content: ' ';
+      background-image: url('../../../image/Эллипс\ 1.png');
+      display: block;
+      width: 100%;
+      height: 9px;
+      position: absolute;
+      bottom: -7px;
+  }
 

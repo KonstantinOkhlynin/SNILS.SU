@@ -1,0 +1,10 @@
+.menu-nav__item_border {
+  width: 70%;
+    height: 2px;
+    background: #f5135c;
+    position: absolute;
+    bottom: -3px;
+    display: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}

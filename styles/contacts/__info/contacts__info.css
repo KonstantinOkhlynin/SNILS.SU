@@ -10,20 +10,6 @@
   margin: 0;
 }
 
-.grid-area-one{
-  grid-area: one;
-}
-.grid-area-two{
-  grid-area: two;
-}
-.grid-area-tree{
-  grid-area: tree;
-}
-.grid-area-four{
-  grid-area: four;
-}
-
-
 @media screen and (min-width: 300px) and (max-width: 539px) {
   .contacts__info{
     font-size: 14px;

@@ -1,14 +1,13 @@
 @import url('./__list/menu-nav__list.css');
 @import url('./__item/menu-nav__item.css');
-@import url('./__item-border/menu-nav__item-border.css');
-@import url('./__border-image/menu-nav__border-image.css');
 @import url('./__modal/menu-nav__modal.css');
+@import url('./__text/menu-nav__text.css');
 
 /* .menu-nav {
 display: none;
 } */
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 580px) {
   .menu-nav{
     display: none;
   }

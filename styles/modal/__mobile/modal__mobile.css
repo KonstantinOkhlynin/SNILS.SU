@@ -1,3 +1,5 @@
 .modal__mobile {
-  display: flex;
+  display: none;
+  left: -0.1px;
+  top: 0;
 }

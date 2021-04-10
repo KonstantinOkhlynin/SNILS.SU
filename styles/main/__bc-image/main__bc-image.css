@@ -5,4 +5,10 @@
   background-repeat: no-repeat;
   margin-top: -47px;
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  z-index: -1;
+  box-sizing: border-box;
+  padding-bottom: 23px;
 }
