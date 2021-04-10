@@ -1,0 +1,24 @@
+.about-snils__img {
+  width: 446px;
+  height: 316px;
+  position: relative;
+  background-size: contain;
+}
+
+@media screen and (max-width: 480px) {
+  .about-snils__img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+/* .about-snils__img::after {
+  content: ' ';
+      background-image: url('../../../image/Эллипс 1 копия.png');
+      display: block;
+      width: 400px;
+      height: 5px;
+      position: absolute;
+      background-repeat: no-repeat;
+      bottom: 0;
+  } */

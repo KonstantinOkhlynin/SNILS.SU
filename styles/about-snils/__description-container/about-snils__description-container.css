@@ -1,0 +1,11 @@
+.about-snils__description-container {
+  padding-left: 50px;
+  padding-top: 16px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 660px) {
+  .about-snils__description-container {
+    padding-left: 0;
+  }
+}

@@ -5,3 +5,19 @@
   src: url("./font/PlumbCondensed Bold.woff") format('woff');
 }
 
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 500;
+  src: url("./font/TrebuchetMS.woff") format('woff');
+}
+
+
+@font-face {
+  font-family: 'PlumbCondensed reg';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/plumbcondensed-regular.otf") format('otf');
+}
+
+

@@ -1,0 +1,16 @@
+.about-snils__concept {
+  font-size: 16px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(39, 39, 39);
+  text-align: center;
+  margin-top: 33px;
+  margin-bottom: 45px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 609px) {
+  .about-snils__concept {
+    font-size: 14px;
+  }
+}
+

@@ -1,0 +1,32 @@
+.about-snils__description-item {
+  font-size: 16px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(39, 39, 39);
+  margin: 0;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 36px;
+}
+
+
+.about-snils__description-item::before {
+  content: ' ';
+      background-image: url('../../../image/tick-27406.png');
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 0;
+      left: -40px;
+      background-repeat: no-repeat;
+      bottom: 2px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .about-snils__description-item {
+      font-size: 12px;
+    }
+  }
+
+
+
