@@ -1,0 +1,12 @@
+.question-snils__form-title {
+  font-size: 18.219px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(86, 87, 91);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.317;
+  text-align: center;
+  margin: 0;
+  border-bottom: 1px solid rgba(145, 155, 170, 0.7);
+  padding-bottom: 5px;
+}

@@ -21,3 +21,19 @@
 }
 
 
+@font-face {
+  font-family: 'PlumbCondensed light';
+  src: url("./font/plumbcondensed-light.eot");
+  src: local("☺"), url("./font/plumbcondensed-light.woff") format("woff"), url("./font/plumbcondensed-light.ttf") format("truetype"), url("./font/plumbcondensed-light.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlumbCondensed ff';
+  src: url("./font/ofont.ru_Plumb.eot");
+  src: local("☺"), url("./font/ofont.ru_Plumb.woff") format("woff"), url("./font/ofont.ru_Plumb.ttf") format("truetype"), url("./font/ofont.ru_Plumb.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+

@@ -9,3 +9,14 @@
 @import url('./modal/modal.css');
 @import url('./mobile-menu-nav/mobile-menu-nav.css');
 @import url('./about-snils/about-snils.css');
+@import url('./get-snils/get-snils.css');
+@import url('./question-snils/question-snils.css');
+@import url('./details-snils/details-snils.css');
+@import url('./footer/footer.css');
+
+.aa {
+  background-image: url('../image/fonbig.png');
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 1065px;
+}

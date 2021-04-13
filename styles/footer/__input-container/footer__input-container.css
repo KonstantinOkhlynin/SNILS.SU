@@ -1,0 +1,5 @@
+.footer__input-container {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+}

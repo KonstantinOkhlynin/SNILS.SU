@@ -1,21 +1,20 @@
 @import url('./__info/contacts__info.css');
 
 .contacts {
-      display: flex;
-      justify-content: space-around;
-      width: 70%;
-      flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 940px) and (max-width: 1139px) {
-  .contacts{
+  .contacts {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 330px) {
-  .contacts{
+  .contacts {
     justify-content: flex-start;
   }
 }
-

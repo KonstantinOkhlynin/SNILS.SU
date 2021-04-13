@@ -3,12 +3,10 @@
 @import url('./__modal/menu-nav__modal.css');
 @import url('./__text/menu-nav__text.css');
 
-/* .menu-nav {
-display: none;
-} */
+
 
 @media screen and (max-width: 580px) {
-  .menu-nav{
+  .menu-nav {
     display: none;
   }
 }

@@ -1,6 +1,6 @@
 .about-snils__title {
   font-size: 29px;
-  font-family: 'PlumbCondensed reg', Arial, sans-serif;
+  font-family: 'PlumbCondensed light', Arial, sans-serif;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.46);
@@ -24,6 +24,3 @@
     font-size: 16px;
   }
 }
-
-
-

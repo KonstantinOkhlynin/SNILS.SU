@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 1066px) {
   .about-snils__description-block {
-   flex-direction: column;
-   align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }

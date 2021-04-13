@@ -1,0 +1,15 @@
+.footer__form-title {
+  font-size: 14px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  max-width: 340px;
+  margin-left: 17px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1030px) {
+  .footer__form-title {
+    text-align: center;
+    margin-left: 17px;
+  }
+}

@@ -1,0 +1,21 @@
+.details-snils__title {
+  font-size: 17px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(45, 45, 45);
+  line-height: 1.588;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0;
+}
+
+@media screen and (min-width: 660px) and (max-width: 930px) {
+  .details-snils__title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .details-snils__title {
+    font-size: 12px;
+  }
+}

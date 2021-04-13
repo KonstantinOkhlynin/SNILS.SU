@@ -1,0 +1,8 @@
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}

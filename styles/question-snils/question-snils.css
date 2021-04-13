@@ -1,0 +1,51 @@
+@import url('./__form/question-snils__form.css');
+@import url('./__img/question-snils__img.css');
+@import url('./__input/question-snils__input.css');
+@import url('./__title/question-snils__title.css');
+@import url('./__button/question-snils__button.css');
+@import url('./__form-container/question-snils__form-container.css');
+@import url('./__form-title/question-snils__form-title.css');
+
+.question-snils {
+  background-image: url('../../image/background-question-snils.png');
+  background-repeat: no-repeat;
+  display: flex;
+  max-width: 100%;
+  padding-left: 93px;
+  padding-right: 93px;
+  padding-top: 32px;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 820px) and (max-width: 940px) {
+  .question-snils {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 819px) {
+  .question-snils {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 660px) and (max-width: 679px) {
+  .question-snils {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .question-snils {
+    background-image: -webkit-linear-gradient(#9c0000, #7a95b3);
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

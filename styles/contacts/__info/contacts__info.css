@@ -2,7 +2,7 @@
 
 .contacts__info {
   font-size: 17px;
-  font-family: 'PlumbCondensed', Arial, sans-serif;
+  font-family: 'PlumbCondensed light', Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.145;
@@ -11,8 +11,7 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 539px) {
-  .contacts__info{
+  .contacts__info {
     font-size: 14px;
   }
 }
-

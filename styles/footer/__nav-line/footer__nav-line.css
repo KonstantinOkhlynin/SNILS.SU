@@ -1,0 +1,7 @@
+.footer__nav-line {
+  height: 1px;
+  width: 85%;
+  position: absolute;
+  background-color: #597aa6;
+  bottom: -15px;
+}

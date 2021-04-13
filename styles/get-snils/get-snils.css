@@ -1,0 +1,42 @@
+@import url('./__subtitle/get-snils__subtitle.css');
+@import url('./__title-container/get-snils__title-container.css');
+@import url('./__title/get-snils__title.css');
+@import url('./__box-container/get-snils__box-container.css');
+@import url('./__box-img/get-snils__box-img.css');
+@import url('./__box-title/get-snils__box-title.css');
+@import url('./__box-subtitle/get-snils__box-subtitle.css');
+@import url('./__box/get-snils__box.css');
+
+
+.get-snils {
+  background-image: url('../../image/background-get-snilss.png');
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 651px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 659px) {
+  .get-snils {
+    background-image: -webkit-linear-gradient(#7a95b3, #9c0000);
+    ;
+  }
+}
+
+
+@media screen and (max-width: 499px) {
+  .get-snils {
+    column-gap: 0;
+    padding-top: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    background-image: -webkit-linear-gradient(#7a95b3, #9c0000);
+  }
+}

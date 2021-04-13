@@ -1,6 +1,6 @@
 .main__title {
   font-size: 29px;
-  font-family: 'PlumbCondensed';
+  font-family: 'PlumbCondensed light', Arial, sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.46);
@@ -8,8 +8,8 @@
 }
 
 
-@media screen  and (max-width: 405px) {
-  .main__title{
+@media screen and (max-width: 405px) {
+  .main__title {
     font-size: 18px;
   }
 }

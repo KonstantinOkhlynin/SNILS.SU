@@ -1,0 +1,11 @@
+.get-snils__box-img {
+  width: 168px;
+  height: 168px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 780px) {
+  .get-snils__box-img {
+    width: 100px;
+    height: 100px;
+  }
+}

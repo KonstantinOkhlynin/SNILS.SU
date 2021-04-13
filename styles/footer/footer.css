@@ -1,0 +1,35 @@
+@import url('./__contacts/footer__contacts.css');
+@import url('./__container/footer__container.css');
+@import url('./__nav/footer__nav.css');
+@import url('./__textarea-container/footer__textarea-container.css');
+@import url('./__form/footer__form.css');
+@import url('./__input-container/footer__input-container.css');
+@import url('./__input/footer__input.css');
+@import url('./__button/footer__button.css');
+@import url('./__number/footer__number.css');
+@import url('./__form-title/footer__form-title.css');
+@import url('./__form-container/footer__form-container.css');
+@import url('./__logo-container/footer__logo-container.css');
+@import url('./_white/footer__nav-item_white.css');
+@import url('./__nav-list/footer__nav-list.css');
+@import url('./__contacts-info/footer__contacts-info.css');
+@import url('./__nav-line/footer__nav-line.css');
+
+
+.footer {
+  background-image: url('../../image/background-footer.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 401px;
+  padding-top: 10px;
+  margin-top: 88px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1030px) {
+  .footer {
+    background-image: -webkit-linear-gradient(#7a95b3, #9c0000);
+    height: auto;
+  }
+}

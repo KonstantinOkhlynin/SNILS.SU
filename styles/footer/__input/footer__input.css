@@ -1,0 +1,13 @@
+@import url('./_mod/footer__input_mod.css');
+
+.footer__input {
+  border: 1px solid #e2e2e2;
+  width: 100%;
+  font-size: 17px;
+  font-family: 'PlumbCondensed light', Arial, sans-serif;
+  color: #9d9b9b;
+  line-height: 1.2;
+  margin-top: 14px;
+  resize: none;
+  outline: none;
+}

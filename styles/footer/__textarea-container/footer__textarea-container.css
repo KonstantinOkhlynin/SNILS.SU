@@ -1,0 +1,11 @@
+.footer__textarea-container {
+  width: 245px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1030px) {
+  .footer__textarea-container {
+    margin-left: 0;
+    order: -1;
+  }
+}

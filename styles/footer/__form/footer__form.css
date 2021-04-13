@@ -1,0 +1,13 @@
+.footer__form {
+  display: flex;
+  margin-left: 106px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1030px) {
+  .footer__form {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+  }
+}

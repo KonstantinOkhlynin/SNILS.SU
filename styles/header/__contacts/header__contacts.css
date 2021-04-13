@@ -9,12 +9,8 @@
 
 
 @media screen and (max-width: 330px) {
-  .header__contacts{
+  .header__contacts {
     justify-content: flex-start;
     padding-left: 10px;
   }
 }
-
-
-
-

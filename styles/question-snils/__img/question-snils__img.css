@@ -1,0 +1,29 @@
+.question-snils__img {
+  width: 370px;
+  height: 370px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1160px) {
+  .question-snils__img {
+    width: 300px;
+    height: 300px;
+    padding-top: 36px;
+  }
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 779px) {
+  .question-snils__img {
+    width: 200px;
+    height: 200px;
+    padding-top: 90px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 679px) {
+  .question-snils__img {
+    width: 200px;
+    height: 200px;
+    padding-top: 0;
+  }
+}

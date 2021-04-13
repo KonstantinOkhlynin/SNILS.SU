@@ -1,9 +1,8 @@
 @import url('./__contacts/header__contacts.css');
 @import url('./__logo-container/header__logo-container.css');
 @import url('./__nav/header__nav.css');
+
 .header {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  
+  max-width: 100%;
+  height: auto;
+}

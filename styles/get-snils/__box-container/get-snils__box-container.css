@@ -1,0 +1,22 @@
+.get-snils__box-container {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 68px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 659px) {
+  .get-snils__box-container {
+    column-gap: 38px;
+    padding-top: 65px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .get-snils__box-container {
+    column-gap: 0;
+    padding-top: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

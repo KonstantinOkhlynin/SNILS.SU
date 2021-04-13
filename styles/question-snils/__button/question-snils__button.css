@@ -1,0 +1,15 @@
+@import url('./_color-one/question-snils__button_color-one.css');
+@import url('./_color-two/question-snils__button_color-two.css');
+@import url('./_color-tree/question-snils__button_color-tree.css');
+
+.question-snils__button {
+  border-radius: 3px;
+  width: 70.74%;
+  height: 31px;
+  border: 0;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-left: 15.05%;
+  outline: none;
+}

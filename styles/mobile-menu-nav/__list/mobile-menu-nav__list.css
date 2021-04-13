@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: minmax(0px,160px);
+  grid-template-columns: minmax(0px, 160px);
 }
 
 @media screen and (max-width: 580px) {
   .mobile-menu-nav__list {
-    grid-template-columns: minmax(0px,540px);
+    grid-template-columns: minmax(0px, 540px);
   }
 }

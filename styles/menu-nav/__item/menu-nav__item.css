@@ -1,34 +1,37 @@
 @import url('./_border/menu-nav__item_border.css');
+
 .menu-nav__item {
-    padding-top: 6px;
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+  padding-top: 6px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .menu-nav__item::before {
-content: ' ';
-    background-image: url('../../../image/Слой\ 1\ копия\ 3.png');
-    display: block;
-    width: 3px;
-    height: 30px;
-    position: absolute;
-    left: 0;
-    top: 0;
+  content: ' ';
+  background-image: url('../../../image/border-menu-nav.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 3px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .menu-nav__item:last-child::after {
   content: ' ';
-      background-image: url('../../../image/Слой\ 1\ копия\ 3.png');
-      display: block;
-      width: 3px;
-      height: 30px;
-      position: absolute;
-      right: 0;
-      top: 0;
-  }
+  background-image: url('../../../image/border-menu-nav.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 3px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 
 .menu-nav__item_mod:hover .modal {

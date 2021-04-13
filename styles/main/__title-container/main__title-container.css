@@ -13,7 +13,7 @@
 
 
 @media screen and (min-width: 505px) and (max-width: 1008px) {
-  .main__title-container{
+  .main__title-container {
     padding-right: 50px;
     padding-left: 50px;
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 505px) {
-  .main__title-container{
+  .main__title-container {
     padding-right: 25px;
     padding-left: 25px;
     justify-content: center;

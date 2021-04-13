@@ -3,27 +3,5 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: minmax(0px,188px) minmax(0px,257px) minmax(0px,245px) minmax(0px,198px) minmax(0px,239px);
+  grid-template-columns: minmax(0px, 188px) minmax(0px, 257px) minmax(0px, 245px) minmax(0px, 198px) minmax(0px, 239px);
 }
-
-
-/* @media screen and (min-width: 960px) and (max-width: 1169px) {
-  .menu-nav__list{
-    gap: 0px 45px;
-  }
-}
-
-@media screen and (min-width: 770px) and (max-width: 959px) {
-  .menu-nav__list{
-    gap: 0px 25px;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 769px) {
-  .menu-nav__list{
-    gap: 0px 10px;
-  }
-} */
-
-
-

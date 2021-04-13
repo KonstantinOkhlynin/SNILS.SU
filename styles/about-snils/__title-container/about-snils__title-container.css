@@ -1,9 +1,9 @@
 .about-snils__title-container {
-background-color: #f5135c;
-width: 100%;
-padding-top: 15px;
-padding-bottom: 15px;
-text-align: center;
+  background-color: #f5135c;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 
@@ -13,4 +13,3 @@ text-align: center;
     padding-bottom: 10px;
   }
 }
-

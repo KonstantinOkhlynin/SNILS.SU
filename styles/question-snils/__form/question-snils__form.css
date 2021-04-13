@@ -1,0 +1,10 @@
+.question-snils__form {
+  height: 330px;
+  width: 100%;
+  border: 1px solid rgba(113, 127, 150, 0.3);
+  background-color: rgba(221, 227, 236, 75%);
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
